@@ -45,10 +45,3 @@ We extend our gratitude to the mentors and judges who provided valuable insights
 - Mark Buchner
 - Manish Dixit
 
-## Special Thanks
-
-We would like to thank the Seneca Hackathon organizing team for their hard work and dedication in putting together such an incredible event.
-
-## Tags
-
-[blockchaintechnology](#) | [dapps](#) | [solidity](#) | [ethereum](#) | [hackathon](#)
