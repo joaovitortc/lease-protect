@@ -32,7 +32,7 @@ LeaseProtec's tech stack includes:
 
 ## Contributors
 
-- **Team Members**: Joao Vitor Cunha, Shrey Bhatt, Mabel , Emily Faig
+- **Team Members**: Joao Vitor Cunha, Shrey Bhatt, Mabel Zhou , Emily Fagin
 
 ## Acknowledgements
 
