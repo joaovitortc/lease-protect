@@ -5,7 +5,7 @@ LeaseProtec is a groundbreaking solution developed during the Seneca Hackathon, 
 ## Overview
  
 Traditional lease contracts often lack transparency and require manual preservation, leading to inefficiencies and potential disputes. LeaseProtec leverages Ethereum blockchain technology to provide an inherently secure environment for managing lease agreements.
- 
+
 ## Features
 
 - **Transparency**: LeaseProtec ensures maximum transparency by utilizing Ethereum blockchain technology.
