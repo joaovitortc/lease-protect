@@ -70,42 +70,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## File Structure
-
-```bash
-KuKeen/
-│
-├── assets/
-│   ├── css/         
-│   ├── images/       
-│   └── togglePassword.js       # Responsible for toggling the passsword visibility
-│
-├── controllers/
-│   ├── cartController.js     
-│   └── generalController.js  
-│   └── loadDataController.js   # Endpoint responsible to restart the database (emergency recovery)
-│   └── mealkitsController.js
-│
-├── modules/
-│   ├── mealKitModel.js          
-│   └── mealkitUtil.js
-│   └── userModel.js        
-│
-├── views/
-│   ├── general/                # Contain all the general views (home.ejs, cart.ejs, etc)
-│   ├── layouts/
-│       └── main.ejs            # Layout used in every page (using EJS-Layouts)
-│   ├── mealkits/               # Contain all the mealkit's related views
-│   ├── partials/
-│       ├── footer.ejs
-│       └── mealkits.ejs
-│       └── navbar.ejs
-│
-├── .gitignore                  # Git ignore file
-├── README.md                   # Project README file
-└── server.js                   # Project Entry point
-```
-
 <!-- USAGE EXAMPLES -->
 ## Features
 
@@ -122,12 +86,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 </br>
 
-<!-- CONTACT -->
-## Contact
-
-- [Portfolio](https://joaocunha.onrender.com)
-- [LinkedIn](https://www.linkedin.com/in/joaovitortc/)
-- [GitHub](https://github.com/joaovitortc)
 
 </br>
 
@@ -135,12 +93,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Acknowledgements
 We extend our gratitude to the mentors and judges who provided valuable insights and guidance throughout the project:
 
-Jeff Pledger
-Suzanne M. Pledger
-Colin Rees
-Daniel Rizzi 
-Mark Buchner
-Manish Dixit
+* Jeff Pledger
+* Suzanne M. Pledger
+* Colin Rees
+* Daniel Rizzi 
+* Mark Buchner
+* Manish Dixit
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </br>
 </br>
