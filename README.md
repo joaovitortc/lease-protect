@@ -30,7 +30,7 @@
       </ul>
     </li>
     <li><a href="#file-structure">File Structure</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -41,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="/lease-protect.png" alt="Logo" >
+<img src="/lease-protect.jpg" alt="Logo" >
 
 <p>LeaseProtec is a groundbreaking solution developed during the Seneca Hackathon, aimed at revolutionizing the rental industry by addressing the urgent need for transparency, security, and efficiency in lease agreements.<p/>
     <br/> 
@@ -107,34 +107,12 @@ KuKeen/
 ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Features
 
-This section outlines some of the features of the website.
-
-### Log in system
-The website employs *bcrypt.js* to securely hash and store user passwords in MongoDB. 
-Only registered users are permitted to log in.
-
-<img src="assets/log-in.png" alt="Logo" width="300">
-
-### Url Protection
-I utilized *express-session* to secure endpoints, ensuring that only logged-in users can access certain pages. This also prevents customers from accessing administrator pages.
-
-<img src="assets/unauthorized.png" alt="Logo" >
-
-### Admin
-Administrators have the capability to create, delete, and edit meal kits through the admin panel.
-
-<img src="assets/cru.png" alt="Logo" >
-
-### Cart
-Sessions are used to track user activity, maintaining the contents of the cart even if the user leaves the website. Users can also modify the quantity, add / remove items on their cart. By simulating the placement of an order, and email is sent to the registered user.
-
-<img src="assets/cart.png" alt="Logo" >
-
-
+* Transparency: LeaseProtec ensures maximum transparency by utilizing Ethereum blockchain technology.
+* Security: Personal details are kept confidential through selective display of attributes via hashes.
+* Efficiency: The web platform digitizes and automates the leasing process, minimizing delays and providing easy access for both landlords and tenants.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 </br>
 
 <!-- LICENSE -->
@@ -154,11 +132,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 </br>
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+Acknowledgements
+We extend our gratitude to the mentors and judges who provided valuable insights and guidance throughout the project:
 
-Special thanks to [Nick Romanidis](https://github.com/nick-romanidis) for guidance and support throughout the development process.
-
+Jeff Pledger
+Suzanne M. Pledger
+Colin Rees
+Daniel Rizzi 
+Mark Buchner
+Manish Dixit
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </br>
 </br>
+
 
