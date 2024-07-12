@@ -8,13 +8,11 @@
     <img src="/ethereum-blockchain.png" alt="Logo" width="160" height="160">
   </a>
 
-  <h1 align="center">Travel Genie</h1>
+  <h1 align="center">Lease Protect</h1>
 
   <p align="center">
     Revolutionizing the rental industry with transparency, security, and efficiency in lease agreements
     <br />
-    <br />
-    <a href="https://kukeen.onrender.com" target="_blank"><strong>Visit the Websit »</strong></a>
     <br />
   </p>
 </div>
@@ -43,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="assets/images/lease-protect.png" alt="Logo" >
+<img src="/lease-protect.png" alt="Logo" >
 
 <p>LeaseProtec is a groundbreaking solution developed during the Seneca Hackathon, aimed at revolutionizing the rental industry by addressing the urgent need for transparency, security, and efficiency in lease agreements.<p/>
     <br/> 
