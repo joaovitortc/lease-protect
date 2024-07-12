@@ -43,15 +43,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="assets/images/kukeen.png" alt="Logo" >
+<img src="assets/images/lease-protect.png" alt="Logo" >
 
-Kukeen is a full-stack web application designed to facilitate meal preparation with pre-packaged ingredients. </br>
-
-It allows users to sign up and log in as either customers or administrators. 
-- Customers can purchase mealkits, manage their cart, and perform other related actions,
-- Administrators can perform CRUD (Create, Read, Update, Delete) operations on the mealkits inventory. </br>
-
-The application follows the Model-View-Controller (MVC) pattern for efficient organization and separation of concerns.
+<p>LeaseProtec is a groundbreaking solution developed during the Seneca Hackathon, aimed at revolutionizing the rental industry by addressing the urgent need for transparency, security, and efficiency in lease agreements.<p/>
+    <br/> 
+    Traditional lease contracts often lack transparency and require manual preservation, leading to inefficiencies and potential disputes. LeaseProtec leverages Ethereum blockchain technology to provide an inherently secure environment for managing lease agreements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
