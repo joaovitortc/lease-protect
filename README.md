@@ -56,18 +56,15 @@
 * Web Development <br/>
  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
- ![Auth0](https://img.shields.io/badge/Auth0-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
-<br/>
-* Blockchain Development<br/>
+ ![Auth0](https://img.shields.io/badge/Auth0-EB5424?style=for-the-badge&logo=auth0&logoColor=white) <br/>
+* Blockchain Development <br/>
   ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
  ![MetaMask](https://img.shields.io/badge/MetaMask-e2761b?style=for-the-badge&logo=metamask&logoColor=white)
  ![Truffle Suite](https://img.shields.io/badge/Truffle-5e4c9a?style=for-the-badge&logo=truffle&logoColor=white)
- ![Ganache](https://img.shields.io/badge/Ganache-ff7043?style=for-the-badge&logo=ganache&logoColor=white)
-<br/>
+ ![Ganache](https://img.shields.io/badge/Ganache-ff7043?style=for-the-badge&logo=ganache&logoColor=white) <br/>
 * Database<br/>
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+ ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
  ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448c5?style=for-the-badge&logo=cloudinary&logoColor=white)
-
 <br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
