@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/joaovitortc/KuKeen">
-    <img src="assets/images/store.svg" alt="Logo" width="160" height="160">
+    <img src="/ethereum-blockchain.png" alt="Logo" width="160" height="160">
   </a>
 
   <h1 align="center">Travel Genie</h1>
