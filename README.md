@@ -1,47 +1,164 @@
-# LeaseProtec
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
 
-LeaseProtec is a groundbreaking solution developed during the Seneca Hackathon, aimed at revolutionizing the rental industry by addressing the urgent need for transparency, security, and efficiency in lease agreements.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/joaovitortc/KuKeen">
+    <img src="assets/images/store.svg" alt="Logo" width="160" height="160">
+  </a>
 
-## Overview
- 
-Traditional lease contracts often lack transparency and require manual preservation, leading to inefficiencies and potential disputes. LeaseProtec leverages Ethereum blockchain technology to provide an inherently secure environment for managing lease agreements.
+  <h1 align="center">Travel Genie</h1>
 
-## Features
+  <p align="center">
+    Revolutionizing the rental industry with transparency, security, and efficiency in lease agreements
+    <br />
+    <br />
+    <a href="https://kukeen.onrender.com" target="_blank"><strong>Visit the Websit »</strong></a>
+    <br />
+  </p>
+</div>
 
-- **Transparency**: LeaseProtec ensures maximum transparency by utilizing Ethereum blockchain technology.
-  
-- **Security**: Personal details are kept confidential through selective display of attributes via hashes.
-  
-- **Efficiency**: The web platform digitizes and automates the leasing process, minimizing delays and providing easy access for both landlords and tenants.
+<br /><br />
 
-## Tech Stack
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#file-structure">File Structure</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-LeaseProtec's tech stack includes:
 
-- **Blockchain Tools**: Ethereum blockchain tools such as MetaMask for wallet interaction, Truffle Suite for smart contract development, and Ganache for local blockchain testing.
-  
-- **Smart Contract Development**: Solidity is used for coding smart contracts.
-  
-- **Web Development**: Next.js and React are utilized for web development.
-  
-- **Database**: MongoDB serves as the database solution.
-  
-- **Document Storage**: Cloudinary is used for handling document storage.
-  
-- **Authentication**: Auth0 by Okta ensures secure user authentication.
 
-## Contributors
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-- **Team Members**: Joao Vitor Cunha, Shrey Bhatt, Mabel Zhou , Emily Fagin
+<img src="assets/images/kukeen.png" alt="Logo" >
 
-## Acknowledgements
+Kukeen is a full-stack web application designed to facilitate meal preparation with pre-packaged ingredients. </br>
 
-We extend our gratitude to the mentors and judges who provided valuable insights and guidance throughout the project:
+It allows users to sign up and log in as either customers or administrators. 
+- Customers can purchase mealkits, manage their cart, and perform other related actions,
+- Administrators can perform CRUD (Create, Read, Update, Delete) operations on the mealkits inventory. </br>
 
-- Jeff Pledger
-- Suzanne M. Pledger
-- Colin Rees
-- Daniel Rizzi 🦉
-- Mark Buchner
-- Manish Dixit
+The application follows the Model-View-Controller (MVC) pattern for efficient organization and separation of concerns.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+* ![EJS](https://img.shields.io/badge/EJS-026d3f?style=for-the-badge&logo=ejs&logoColor=white)
+* ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+* ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+* ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## File Structure
+
+```bash
+KuKeen/
+│
+├── assets/
+│   ├── css/         
+│   ├── images/       
+│   └── togglePassword.js       # Responsible for toggling the passsword visibility
+│
+├── controllers/
+│   ├── cartController.js     
+│   └── generalController.js  
+│   └── loadDataController.js   # Endpoint responsible to restart the database (emergency recovery)
+│   └── mealkitsController.js
+│
+├── modules/
+│   ├── mealKitModel.js          
+│   └── mealkitUtil.js
+│   └── userModel.js        
+│
+├── views/
+│   ├── general/                # Contain all the general views (home.ejs, cart.ejs, etc)
+│   ├── layouts/
+│       └── main.ejs            # Layout used in every page (using EJS-Layouts)
+│   ├── mealkits/               # Contain all the mealkit's related views
+│   ├── partials/
+│       ├── footer.ejs
+│       └── mealkits.ejs
+│       └── navbar.ejs
+│
+├── .gitignore                  # Git ignore file
+├── README.md                   # Project README file
+└── server.js                   # Project Entry point
+```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+This section outlines some of the features of the website.
+
+### Log in system
+The website employs *bcrypt.js* to securely hash and store user passwords in MongoDB. 
+Only registered users are permitted to log in.
+
+<img src="assets/log-in.png" alt="Logo" width="300">
+
+### Url Protection
+I utilized *express-session* to secure endpoints, ensuring that only logged-in users can access certain pages. This also prevents customers from accessing administrator pages.
+
+<img src="assets/unauthorized.png" alt="Logo" >
+
+### Admin
+Administrators have the capability to create, delete, and edit meal kits through the admin panel.
+
+<img src="assets/cru.png" alt="Logo" >
+
+### Cart
+Sessions are used to track user activity, maintaining the contents of the cart even if the user leaves the website. Users can also modify the quantity, add / remove items on their cart. By simulating the placement of an order, and email is sent to the registered user.
+
+<img src="assets/cart.png" alt="Logo" >
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+</br>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+</br>
+
+<!-- CONTACT -->
+## Contact
+
+- [Portfolio](https://joaocunha.onrender.com)
+- [LinkedIn](https://www.linkedin.com/in/joaovitortc/)
+- [GitHub](https://github.com/joaovitortc)
+
+</br>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Special thanks to [Nick Romanidis](https://github.com/nick-romanidis) for guidance and support throughout the development process.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</br>
+</br>
 
